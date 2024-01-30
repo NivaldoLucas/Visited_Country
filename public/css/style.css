@@ -1,0 +1,72 @@
+/* public/css/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1E1E1E; /* Cor de fundo principal (modo dark) */
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF; /* Cor do texto principal (modo dark) */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2D2D2D; /* Cor de fundo do contêiner (modo dark) */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF; /* Cor do texto dentro do contêiner (modo dark) */
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3E82F7; /* Cor do botão primário (modo dark) */
+    color: #FFFFFF; /* Cor do texto no botão (modo dark) */
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #4F4F4F; /* Cor das bordas da tabela (modo dark) */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2D2D2D; /* Cor de fundo do cabeçalho da tabela (modo dark) */
+    color: #FFFFFF; /* Cor do texto no cabeçalho da tabela (modo dark) */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilize ainda mais os campos de formulário se necessário */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title{
+    color: #ffffff;
+}
